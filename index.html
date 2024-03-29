@@ -1,0 +1,38 @@
+<!DOCTYPE html
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iPhone Calculator</title>
+  <link href="style.css" rel="stylesheet">
+
+</head>
+<body class="bg-black flex items-center justify-center h-screen">
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+    <div class="buttons">
+      <div class="button orange" onclick="clearDisplay()">AC</div>
+      <div class="button orange" onclick="toggleSign()">+/-</div>
+      <div class="button orange" onclick="calculatePercentage()">%</div>
+      <div class="button orange" onclick="operate('/')">&divide;</div>
+      <div class="button" onclick="appendToDisplay(7)">7</div>
+      <div class="button" onclick="appendToDisplay(8)">8</div>
+      <div class="button" onclick="appendToDisplay(9)">9</div>
+      <div class="button orange" onclick="operate('*')">&times;</div>
+      <div class="button" onclick="appendToDisplay(4)">4</div>
+      <div class="button" onclick="appendToDisplay(5)">5</div>
+      <div class="button" onclick="appendToDisplay(6)">6</div>
+      <div class="button orange" onclick="operate('-')">-</div>
+      <div class="button" onclick="appendToDisplay(1)">1</div>
+      <div class="button" onclick="appendToDisplay(2)">2</div>
+      <div class="button" onclick="appendToDisplay(3)">3</div>
+      <div class="button orange" onclick="operate('+')">+</div>
+      <div class="button zero" onclick="appendToDisplay(0)">0</div>
+      <div class="button" onclick="appendDecimal()">.</div>
+      <div class="button orange" onclick="calculate()">=</div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
