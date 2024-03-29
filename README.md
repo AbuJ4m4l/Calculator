@@ -60,11 +60,6 @@ npm run dev
 
 After running the development server, visit `http://localhost:3000` in your browser to view the calculator.
 
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 ## License
 
